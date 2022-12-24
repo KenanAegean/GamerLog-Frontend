@@ -344,7 +344,7 @@ input::-webkit-input-placeholder {
     transition: all 0.4s;
 }
 .mainmenu li a.active, .mainmenu li a:hover {
-    color: #eb315a;
+    color: #963dad;
 }
 .header-right form {
     display: flex;
@@ -383,7 +383,7 @@ option {
 }
 
 .header-right ul li a:hover {
-	color: #eb315a;
+	color: #963dad;
 }
 .header-right ul li {
     padding: 8px 0 0;
@@ -549,7 +549,7 @@ hr {
 }
 
 .portfolio-menu li.active::before,.portfolio-menu li:hover::before {
-    background: #eb315a;
+    background: #963dad;
 }
 .portfolio-content h2 {
     margin-top: 20px;
