@@ -334,6 +334,24 @@
 		<script src="assets/js/isotope.pkgd.min.js"></script>
 		<!-- main JS -->
 		<script src="assets/js/main.js"></script>
+
+		<script type="text/javascript">
+			var images = ['assets/img/hero-area.png', 
+			'assets/img/hero-area1.png',
+			'assets/img/hero-area2.png', 
+			'assets/img/hero-area3.png',
+			'assets/img/hero-area4.png',
+			'assets/img/hero-area5.png',
+			'assets/img/hero-area6.png',
+			'assets/img/hero-area7.png',  
+			'assets/img/hero-area8.png'];
+			var randomImage = Math.floor(Math.random() * 9);
+
+			 $(document).ready(function() 
+			{
+				  $(".hero-area").css("background-image", "url('" + images[randomImage] + "')");
+			})
+	</script>
 	</body>
 
 </html>
