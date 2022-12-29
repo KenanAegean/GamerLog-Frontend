@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>GamerLog</title>>
+		<title>GamerLog</title>
 		<!-- Favicon Icon -->
 		<link rel="icon" type="image/png" href="assets/img/favcion.png" />
 		<!-- Bootstrap CSS -->
@@ -43,7 +43,7 @@
 						
 
 						<form action="#">
-							<input type="text" style="border-left-width: 0px; margin-left: 0px;" />
+							<input type="text" style="border-left-width: 0px; margin-left: 0px;" />	
 							<button><i class="icofont icofont-search"></i></button>
 						</form>
 
@@ -53,7 +53,10 @@
 							<div class="mainmenu">
 								<ul id="primary-menu">
 									<li><a href="index.html">Home</a></li>
-									<li><a class="active" href="games.html">Games</a></li>
+									<li><a class="active" href="games.html">Games</a>
+										<ul><li>
+											<li><a href="mygames.html">My Games</a></li>
+										</li></ul></li>
 									<li><a href="tossme.html">Toss me a Game</a></li>
 									<li><a class="theme-btn theme-btn2" onclick="window.location.href='signin.html'" style="color:white">Login</a></li>
 								</ul>
@@ -96,18 +99,18 @@
 								<ul>
 									<li>
 										<div class="transformers-left">
-											Game:
+											Developer:
 										</div>
 										<div class="transformers-right">
-											<a href="#">Sci-Fic</a>
+											<a>CD Project Red</a> 
 										</div>
 									</li>
 									<li>
 										<div class="transformers-left">
-											Writer:
+											Publisher:
 										</div>
 										<div class="transformers-right">
-											Stephen McFeely, Christopher Markus
+											CD Project Red
 										</div>
 									</li>
 									<li>
@@ -120,10 +123,10 @@
 									</li>
 									<li>
 										<div class="transformers-left">
-											Time: 
+											Average Beat Time: 
 										</div>
 										<div class="transformers-right">
-											190m
+											60 Hours
 										</div>
 									</li>
 									<li>
@@ -131,7 +134,7 @@
 											Release:
 										</div>
 										<div class="transformers-right">
-											2018-07-22
+											12-12-2020
 										</div>
 									</li>
 									<li>
@@ -155,6 +158,10 @@
 										</div>
 									</li>
 								</ul>
+								<br><br>
+								<button class="theme-btn theme-btn2">Add Favorites</button>
+								<button class="theme-btn theme-btn2">Add Library</button>
+								
 							</div>
 						</div>
 					</div>
@@ -172,13 +179,36 @@
 								<h2>Overview</h2>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nisi, repellat voluptatibus facere quasi blanditiis minus aliquid. Ullam, sunt dolor maxime ipsa, deleniti reiciendis doloribus dolore necessitatibus soluta officiis sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus laborum quia voluptatibus ut dignissimos a necessitatibus, accusantium dolorum cupiditate unde error nobis dicta excepturi exercitationem alias nisi tempore quasi quos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur iusto molestiae porro quas dignissimos quaerat velit veritatis in! Accusamus ut fugiat temporibus alias recusandae doloribus totam? Consequuntur deserunt in quia?</p>
 							</div>
+							
+							<div class="details-overview">
+								<h2>Screenshoots</h2>
+							</div>
+							<section class="container">
+								
+								<div class="row">
+                                    <div class="col-lg-6">
+                                        <img src="assets/img/hero-area.png">
+									</div>
+									<div class="col-lg-6">
+										<img src="assets/img/hero-area1.png">
+									</div>
+									<br><br>
+									<div class="col-lg-6">
+                                        <img src="assets/img/hero-area2.png">
+									</div>
+									<div class="col-lg-6">
+										<img src="assets/img/hero-area3.png">
+									</div>
+										
+								</div>
+							</section>
 							<div class="details-reply">
 								<h2>Leave a Comment</h2>
 								<form action="#">
 									<div class="row">
 										<div class="col-lg-4">
 											<div class="select-container">
-												<input type="text" placeholder="Name"/>
+												<input type="text" placeholder="User Name"/>
 												<i class="icofont icofont-ui-user"></i>
 											</div>
 										</div>
@@ -193,25 +223,7 @@
 							</div>
 							<div class="details-comment">
 								<a class="theme-btn theme-btn2" href="#">Post Comment</a>
-								<p>You may use these HTML tags and attributes: You may use these HTML tags and attributes: You may use these HTML tags and attributes: </p>
-							</div>
-							<div class="details-thumb">
-								<div class="details-thumb-prev">
-									<div class="thumb-icon">
-										<i class="icofont icofont-simple-left"></i>
-									</div>
-									<div class="thumb-text">
-										<h4>Previous Comment</h4>
-									</div>
-								</div>
-								<div class="details-thumb-next">
-									<div class="thumb-text">
-										<h4>Next Comment</h4>	
-									</div>
-									<div class="thumb-icon">
-										<i class="icofont icofont-simple-right"></i>
-									</div>
-								</div>
+								<p> </p>
 							</div>
 						</div>
 					</div>					
